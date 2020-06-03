@@ -1,0 +1,27 @@
+{
+  "name": "MongoDB-Learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./lib/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.13.5",
+    "@types/express": "^4.17.6",
+    "@types/mongodb": "^3.5.20",
+    "cors": "^2.8.5",
+    "mongodb": "^3.5.8",
+    "custom-env": "^2.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.3"
+  }
+}
